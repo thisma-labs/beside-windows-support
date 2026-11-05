@@ -1,0 +1,22 @@
+# Release binaries (distributed via GitHub Releases, never git tree)
+*.exe
+*.zip
+*.msi
+*.part
+*.tmp
+
+# Secrets, certificates, and credentials
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+.env*
+
+# OS and IDE metadata
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
