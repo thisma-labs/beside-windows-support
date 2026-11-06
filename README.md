@@ -1,16 +1,12 @@
-# Beside for Windows — Customer Support & Release Distribution
-
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/beside-duo-hero.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/beside-duo-hero-light.png">
-    <img src="assets/beside-duo-hero.png" alt="Beside Windows Application running on Modern Laptop alongside Android Smartphone" width="850">
-  </picture>
+  <img src="assets/logo.png" alt="Beside Logo" width="88" height="88">
 </p>
 
+<h1 align="center">Beside for Windows</h1>
+
 <p align="center">
-  <strong>Fast. Private. Together. — Send it. It's there.</strong><br>
-  <em>Direct local-first peer-to-peer file, folder, and text sharing between Windows and Android over Wi-Fi.<br>Mutual TLS 1.3, zero cloud, zero accounts, bounded memory.</em>
+  <strong>Fast Private Together</strong><br>
+  <em>Send it. It's there. — Direct local-first peer-to-peer file, folder, and text sharing between Windows and Android over Wi-Fi.<br>Mutual TLS 1.3, zero cloud, zero accounts, flat 64 KB RAM bounded streaming.</em>
 </p>
 
 <p align="center">
@@ -22,26 +18,19 @@
   <img src="https://img.shields.io/badge/Security-mTLS%201.3%20%2B%20DPAPI-22C55E?style=flat-square" alt="Security">
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/laptop-hero-opt.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/laptop-hero-light-opt.png">
+    <img src="assets/laptop-hero-opt.png" alt="Beside Windows Application running on Modern Laptop" width="850">
+  </picture>
+</p>
+
 ---
 
 ## Overview
 
 **Beside for Windows** is a standalone, dedicated desktop application built for Windows 10 and Windows 11 (64-bit x64). Engineered with a high-performance Flutter desktop UI and an ultra-secure native Rust core (`rustls` + `ring` + `mdns-sd`), Beside streams data directly machine-to-machine across your local Wi-Fi subnet at wire speed without intermediate cloud relays, storage quotas, or user registration.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/laptop-hero-opt.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/laptop-hero-light-opt.png">
-    <img src="assets/laptop-hero-opt.png" alt="Beside Windows Application running on Modern Laptop" width="760">
-  </picture>
-</p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/01-home-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/01-home-light.png">
-    <img src="assets/screenshots/01-home-dark.png" alt="Beside Windows 3-Column Desktop Interface" width="760">
-  </picture>
-</p>
 
 ### The 3-Column Desktop Architecture
 
