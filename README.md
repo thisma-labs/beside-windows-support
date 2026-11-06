@@ -1,7 +1,11 @@
 # Beside for Windows — Customer Support & Release Distribution
 
 <p align="center">
-  <img src="assets/beside-duo-hero.png" alt="Beside Windows Application running on Modern Laptop alongside Android Smartphone" width="850">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/beside-duo-hero.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/beside-duo-hero-light.png">
+    <img src="assets/beside-duo-hero.png" alt="Beside Windows Application running on Modern Laptop alongside Android Smartphone" width="850">
+  </picture>
 </p>
 
 <p align="center">
@@ -25,10 +29,18 @@
 **Beside for Windows** is a standalone, dedicated desktop application built for Windows 10 and Windows 11 (64-bit x64). Engineered with a high-performance Flutter desktop UI and an ultra-secure native Rust core (`rustls` + `ring` + `mdns-sd`), Beside streams data directly machine-to-machine across your local Wi-Fi subnet at wire speed without intermediate cloud relays, storage quotas, or user registration.
 
 <p align="center">
-  <img src="assets/laptop-hero-opt.png" alt="Beside Windows Application running on Modern Laptop" width="760">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/laptop-hero-opt.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/laptop-hero-light-opt.png">
+    <img src="assets/laptop-hero-opt.png" alt="Beside Windows Application running on Modern Laptop" width="760">
+  </picture>
 </p>
 <p align="center">
-  <img src="assets/screenshots/01-home-dark.png" alt="Beside Windows 3-Column Desktop Interface" width="760">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/screenshots/01-home-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/01-home-light.png">
+    <img src="assets/screenshots/01-home-dark.png" alt="Beside Windows 3-Column Desktop Interface" width="760">
+  </picture>
 </p>
 
 ### The 3-Column Desktop Architecture
