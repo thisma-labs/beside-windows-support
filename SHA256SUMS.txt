@@ -1,2 +1,2 @@
-8b8a4aa83215c08481ad3bb92fe0f2c44dddaefef08a48175f8e367e9dc5e1d3  Beside-Setup-v0.2.0-x64.exe
-e521df7e120853d5ca4d71cd7069c19e080c0e8b28728671fd73394c6c36b3ba  Beside-v0.2.0-Windows-x64.zip
+3ecebdfd86342c3e949da380ec292f2d388a5883a64ed816ac9ce4da8bca2b66  Beside-Setup-v0.2.0-x64.exe
+44103647179f198c7e88e5fbc666760b43b00dd6b61b6e642e6dd28a2dfc5309  Beside-v0.2.0-Windows-x64.zip
