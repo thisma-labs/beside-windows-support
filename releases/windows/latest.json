@@ -15,18 +15,18 @@
       "kind": "installer",
       "filename": "Beside-Setup-v0.2.0-x64.exe",
       "url": "https://github.com/thisma-labs/beside-windows-support/releases/download/windows-v0.2.0/Beside-Setup-v0.2.0-x64.exe",
-      "sizeBytes": 12847841,
+      "sizeBytes": 12846158,
       "sizeDisplay": "12.25 MB",
-      "sha256": "3ecebdfd86342c3e949da380ec292f2d388a5883a64ed816ac9ce4da8bca2b66",
+      "sha256": "1f2f28b7e404519de9e5b836940315be26306a8b6f3c222762a6d67dc753ff8e",
       "arch": "x64"
     },
     "portable": {
       "kind": "portable",
       "filename": "Beside-v0.2.0-Windows-x64.zip",
       "url": "https://github.com/thisma-labs/beside-windows-support/releases/download/windows-v0.2.0/Beside-v0.2.0-Windows-x64.zip",
-      "sizeBytes": 15275824,
+      "sizeBytes": 15275822,
       "sizeDisplay": "14.57 MB",
-      "sha256": "44103647179f198c7e88e5fbc666760b43b00dd6b61b6e642e6dd28a2dfc5309",
+      "sha256": "bca3db28d780790797a4123f157bca3587243c6f581a1388b24975ab6cb467d9",
       "arch": "x64"
     }
   },
