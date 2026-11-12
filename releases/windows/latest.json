@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "platform": "windows",
   "channel": "stable",
-  "version": "0.3.0",
-  "buildNumber": 13,
+  "version": "0.3.1",
+  "buildNumber": 14,
   "coreVersion": "0.3.0",
   "releaseDate": "2026-11-12",
   "minSupportedVersion": "0.1.0",
@@ -30,5 +30,5 @@
       "arch": "x64"
     }
   },
-  "signature": "T6SWTJiV3jjQhxPh/8VFGzzDicegK4hJGgFFV8tHeokXu8EaYf0sBfnHlz+PMOluurckaRndHp5FZsl1RgNdDA=="
+  "signature": "3O+ulJ66rd7FoaPq7gRxm3BsyqsTxmtYStDwiUjsh/wWy8AvBtbZiX0d7PjIU4Syv3oaAjD9hUkB5OOII0aCBA=="
 }
