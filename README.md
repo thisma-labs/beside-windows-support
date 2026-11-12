@@ -11,9 +11,9 @@
 
 <p align="center">
   <a href="https://beside-license-worker.khthisald.workers.dev"><img src="https://img.shields.io/badge/Website-beside.app-22C55E?style=flat-square" alt="Website"></a>
-  <a href="https://thisma-labs.github.io/beside-windows-support"><img src="https://img.shields.io/badge/Docs-Windows%20Support-00A4EF?style=flat-square" alt="Support Docs"></a>
+  <a href="https://github.com/thisma-labs/beside-windows-support/issues"><img src="https://img.shields.io/badge/Support-Issues%20%26%20Help-00A4EF?style=flat-square" alt="Support Issues"></a>
   <a href="https://github.com/thisma-labs/beside-android-support"><img src="https://img.shields.io/badge/Android%20Portal-GitHub-3DDC84?style=flat-square" alt="Android Portal"></a>
-  <a href="https://github.com/thisma-labs/beside/releases/latest"><img src="https://img.shields.io/badge/Release-v0.1.1-blue?style=flat-square" alt="Latest Release"></a>
+  <a href="https://github.com/thisma-labs/beside-windows-support/releases/latest"><img src="https://img.shields.io/badge/Release-v0.3.0-blue?style=flat-square" alt="Latest Release"></a>
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-00A4EF?style=flat-square" alt="Windows x64">
   <img src="https://img.shields.io/badge/Security-mTLS%201.3%20%2B%20DPAPI-22C55E?style=flat-square" alt="Security">
 </p>
@@ -51,7 +51,7 @@ Beside is engineered to feel like an integral part of Windows:
 | **SendTo Menu** | Integrates into the classic Windows `shell:sendto` menu for rapid keyboard and Explorer dispatches. |
 | **WinRT Toast Notifications** | Interactive native desktop notifications with direct action buttons: **Accept**, **Decline**, **Copy text**, and **Open folder**. Includes an optional privacy toggle to hide message previews. |
 | **File Explorer Reveal** | Completed transfers invoke native Win32 shell API (`SHOpenFolderAndSelectItems`) to automatically highlight received files in Explorer. |
-| **Hardware Key Vault** | Device identity private keys are encrypted at rest using the **Windows Data Protection API (DPAPI)** bound to your Windows user logon credentials. |
+| **Hardware Key Vault** | Device identity private keys are encrypted at rest using the **Windows Data Protection API (DPAPI)** (`device_key.enc`) bound to your Windows user logon credentials. Paired device pins in TrustStore are protected by OS user account permissions. |
 
 ---
 
@@ -71,18 +71,18 @@ Beside is engineered to feel like an integral part of Windows:
 
 ---
 
-## Downloads & Verification (Windows v0.1.1)
+## Downloads & Verification (Windows v0.3.0)
 
 | Package | Format | Size | Checksum (SHA-256) | Download |
 | :--- | :---: | :---: | :---: | :---: |
-| **Setup Installer (Recommended)** | `.exe` | 12.12 MB | `8b8a4aa83215c08481ad3bb92fe0f2c44dddaefef08a48175f8e367e9dc5e1d3` | [**Download Beside-Setup-v0.1.1-x64.exe**](https://github.com/thisma-labs/beside/releases/download/v0.1.1/Beside-Setup-v0.1.1-x64.exe) |
-| **Portable ZIP Archive** | `.zip` | 14.02 MB | `e521df7e120853d5ca4d71cd7069c19e080c0e8b28728671fd73394c6c36b3ba` | [**Download Beside-v0.1.1-Windows-x64.zip**](https://github.com/thisma-labs/beside/releases/download/v0.1.1/Beside-v0.1.1-Windows-x64.zip) |
+| **Setup Installer (Recommended)** | `.exe` | 12.40 MB | `cc8646d4fb618f429743e3006d8f7abb03141e036faad87840e62815b98ab685` | [**Download Beside-Setup-v0.3.0-x64.exe**](https://github.com/thisma-labs/beside-windows-support/releases/download/windows-v0.3.0/Beside-Setup-v0.3.0-x64.exe) |
+| **Portable ZIP Archive** | `.zip` | 14.81 MB | `a0d0fd7fd6af7517246e1c34bc1d20fb34705bf38d05b2057cb074ed6df50727` | [**Download Beside-v0.3.0-Windows-x64.zip**](https://github.com/thisma-labs/beside-windows-support/releases/download/windows-v0.3.0/Beside-v0.3.0-Windows-x64.zip) |
 
 ### Verifying Checksums in PowerShell
 
 ```powershell
-Get-FileHash -Algorithm SHA256 Beside-Setup-v0.1.1-x64.exe
-# Expected: 8b8a4aa83215c08481ad3bb92fe0f2c44dddaefef08a48175f8e367e9dc5e1d3
+Get-FileHash -Algorithm SHA256 Beside-Setup-v0.3.0-x64.exe
+# Expected: cc8646d4fb618f429743e3006d8f7abb03141e036faad87840e62815b98ab685
 ```
 
 ---
@@ -99,9 +99,9 @@ Get-FileHash -Algorithm SHA256 Beside-Setup-v0.1.1-x64.exe
 ## Official Storefronts & Links
 
 - **Official Website**: [https://beside-license-worker.khthisald.workers.dev](https://beside-license-worker.khthisald.workers.dev)
-- **Windows Support Portal**: [https://thisma-labs.github.io/beside-windows-support](https://thisma-labs.github.io/beside-windows-support)
+- **Windows Issues & Help**: [https://github.com/thisma-labs/beside-windows-support/issues](https://github.com/thisma-labs/beside-windows-support/issues)
 - **Android Support Portal**: [https://github.com/thisma-labs/beside-android-support](https://github.com/thisma-labs/beside-android-support)
 - **Buy Beside Pro Lifetime**: [https://thismalabs.gumroad.com/l/beside-pro](https://thismalabs.gumroad.com/l/beside-pro)
 - **itch.io Community**: [https://thisma-labs.itch.io/beside](https://thisma-labs.itch.io/beside)
-- **SourceForge Mirror**: [https://sourceforge.net/projects/beside-app](https://sourceforge.net/projects/beside-app)
-- **GitHub Issues**: [https://github.com/thisma-labs/beside/issues](https://github.com/thisma-labs/beside/issues)
+- **SourceForge Mirror**: [https://sourceforge.net/projects/beside-windows](https://sourceforge.net/projects/beside-windows)
+- **GitHub Issues**: [https://github.com/thisma-labs/beside-windows-support/issues](https://github.com/thisma-labs/beside-windows-support/issues)
