@@ -15,20 +15,20 @@
       "kind": "installer",
       "filename": "Beside-Setup-v0.3.0-x64.exe",
       "url": "https://github.com/thisma-labs/beside-windows-support/releases/download/v0.3.0/Beside-Setup-v0.3.0-x64.exe",
-      "sizeBytes": 12998501,
-      "sizeDisplay": "12.40 MB",
-      "sha256": "cc8646d4fb618f429743e3006d8f7abb03141e036faad87840e62815b98ab685",
+      "sizeBytes": 13023302,
+      "sizeDisplay": "12.42 MB",
+      "sha256": "d18dddf7ecea4cb5807ca3c573fa46020ea080e665a3570547bec797c8f2bc71",
       "arch": "x64"
     },
     "portable": {
       "kind": "portable",
       "filename": "Beside-v0.3.0-Windows-x64.zip",
       "url": "https://github.com/thisma-labs/beside-windows-support/releases/download/v0.3.0/Beside-v0.3.0-Windows-x64.zip",
-      "sizeBytes": 15525754,
-      "sizeDisplay": "14.81 MB",
-      "sha256": "a0d0fd7fd6af7517246e1c34bc1d20fb34705bf38d05b2057cb074ed6df50727",
+      "sizeBytes": 15563105,
+      "sizeDisplay": "14.84 MB",
+      "sha256": "a5a641f47ffb67d635cfad001f1a51dbb42b2110122d57dad17e989cb31c1c01",
       "arch": "x64"
     }
   },
-  "signature": "QEnB6ATENtu4NhEWdFQH7k7o0s4XA/nADWepmNMVWBiEVJaRjaWlNhqvSJQwxJ/rx+CbSaXhNC34X+6zLbQmAw=="
+  "signature": "T6SWTJiV3jjQhxPh/8VFGzzDicegK4hJGgFFV8tHeokXu8EaYf0sBfnHlz+PMOluurckaRndHp5FZsl1RgNdDA=="
 }
